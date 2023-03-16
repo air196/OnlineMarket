@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DevExtreme.AspNet.Data" Version="2.9.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.3" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.15.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OnlineMarket.Configuration\OnlineMarket.Configuration.csproj" />
+    <ProjectReference Include="..\OnlineMarket.DAL\OnlineMarket.DAL.csproj" />
+    <ProjectReference Include="..\OnlineMarket.Domain\OnlineMarket.Domain.csproj" />
+    <ProjectReference Include="..\OnlineMarket.Others\OnlineMarket.Others.csproj" />
+  </ItemGroup>
+
+</Project>
